@@ -71,6 +71,7 @@ export const Tile = styled.div`
    cursor: pointer;
    transition: 450ms all;
    transform-origin: center left;
+
    &:hover ~ &
    {
       // translate3d(40px, 0, 0);
@@ -93,7 +94,7 @@ export const RowInner = styled.div`
       transform: ${({ istitle }) =>
          istitle === "false"
             ? "translate3d(8.5px, 0, 0)"
-            : "ranslate3d(0, 0, 0)"};
+            : "translate3d(0, 0, 0)"};
    }
    &:hover ${Tile} {
       opacity: 0.3;

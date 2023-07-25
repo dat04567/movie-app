@@ -26,6 +26,7 @@ const Movielist = ({ items, playvideo, currentVideo }) => {
                         if (currentVideo) {
                            currentVideo.pauseVideo();
                         }
+                        
                      }}
                   >
                      <TileImg
